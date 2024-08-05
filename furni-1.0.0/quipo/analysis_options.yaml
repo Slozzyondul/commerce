@@ -9,9 +9,11 @@
 # packages, and plugins designed to encourage good coding practices.
 analyzer:
   errors:
+    library_private_types_in_public_api: ignore
     prefer_const_constructors: ignore
     prefer_const_constructors_in_immutables: ignore
     prefer_const_literals_to_create_immutables: ignore
+    prefer_final_fields: ignore
     sort_child_properties_last: ignore
     unused_field: ignore
     unused_import: ignore

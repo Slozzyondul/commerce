@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:quipo/widgets/hero_section.dart';
 import 'package:quipo/widgets/navigation_header_widget.dart';
+import 'package:quipo/widgets/popular_products.dart';
 import 'package:quipo/widgets/product_section_widget.dart';
+import 'package:quipo/widgets/testimonials_wiget.dart';
+import 'package:quipo/widgets/we_help.dart';
 import 'package:quipo/widgets/why_choose_us.dart';
 
 class IndexPage extends StatefulWidget {
@@ -25,6 +28,9 @@ class _IndexPageState extends State<IndexPage> {
             HeroSection(),
             ProductSection(),
             WhyChooseUsSection(),
+            WeHelpSection(),
+            PopularProductSection(),
+            //TestimonialSection(),
           ],
         ),
       ),
